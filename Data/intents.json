@@ -1,0 +1,246 @@
+{
+  "intents": [
+    {
+      "tag": "salutations",
+      "patterns": [
+        "Bonjour",
+        "Salut",
+        "Coucou",
+        "Bonsoir",
+        "Hello",
+        "Bonjour, j'ai besoin d'aide",
+        "Salut, pouvez-vous m'aider ?",
+        "Hey",
+        "Bonjour à vous"
+      ],
+      "responses": [
+        "Bonjour ! Je suis l'assistant virtuel de l'ESIC. Comment puis-je vous aider ?",
+        "Salut ! Bienvenue à l'ESIC. Que puis-je faire pour vous ?",
+        "Bonjour, bienvenue ! Posez-moi votre question."
+      ]
+    },
+    {
+      "tag": "au_revoir",
+      "patterns": [
+        "Au revoir",
+        "Bonne journée",
+        "À bientôt",
+        "Merci, au revoir",
+        "C'est tout merci",
+        "Bye",
+        "Ciao",
+        "À plus tard"
+      ],
+      "responses": [
+        "Au revoir ! N'hésitez pas à revenir si vous avez d'autres questions.",
+        "Bonne journée ! L'équipe ESIC reste à votre disposition.",
+        "À bientôt ! Passez une excellente journée."
+      ]
+    },
+    {
+      "tag": "remerciements",
+      "patterns": [
+        "Merci",
+        "Merci beaucoup",
+        "C'est très utile",
+        "Super, merci",
+        "Parfait merci",
+        "Merci pour l'info"
+      ],
+      "responses": [
+        "Avec plaisir ! Y a-t-il autre chose que je puisse faire pour vous ?",
+        "De rien ! N'hésitez pas si vous avez d'autres questions.",
+        "C'est un plaisir de vous aider !"
+      ]
+    },
+    {
+      "tag": "horaires",
+      "patterns": [
+        "Quels sont les horaires de bureau ?",
+        "À quelle heure ouvrez-vous ?",
+        "Quel est votre emploi du temps ?",
+        "Quand est-ce que les bureaux sont ouverts ?",
+        "Horaires d'ouverture",
+        "Jusqu'à quelle heure êtes-vous disponibles ?",
+        "Les bureaux sont ouverts le week-end ?",
+        "Quelles sont vos heures de travail ?",
+        "À quelle heure ferme l'administration ?",
+        "Peut-on venir le samedi ?"
+      ],
+      "responses": [
+        "Nos bureaux sont ouverts du lundi au vendredi, de 8h30 à 17h00. Le week-end nous sommes fermés.",
+        "L'administration de l'ESIC est disponible du lundi au vendredi de 8h30 à 17h00."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "Comment puis-je postuler à l'ESIC ?",
+        "Quelles sont les conditions d'admission ?",
+        "Processus d'inscription",
+        "Comment s'inscrire ?",
+        "Je veux intégrer l'ESIC",
+        "Quels sont les critères de sélection ?",
+        "Comment candidater ?",
+        "Dossier d'admission",
+        "Je veux postuler",
+        "Quels documents faut-il pour s'inscrire ?",
+        "Pré-inscription",
+        "Comment rejoindre l'école ?",
+        "Candidature ESIC"
+      ],
+      "responses": [
+        "Le processus d'admission se fait via notre plateforme en ligne. Vous devez déposer votre dossier, passer un examen d'entrée puis un entretien de sélection. Rendez-vous sur notre site ou contactez la scolarité pour plus de détails.",
+        "Pour intégrer l'ESIC, déposez votre dossier en ligne (relevés de notes, lettre de motivation, CV). Un entretien de sélection suivra. Contactez-nous au secrétariat pour connaître les dates de dépôt."
+      ]
+    },
+    {
+      "tag": "filieres",
+      "patterns": [
+        "Quelles sont les filières disponibles ?",
+        "Quels sont les cursus proposés ?",
+        "Quelles formations proposez-vous ?",
+        "Quels diplômes peut-on obtenir ?",
+        "Filières de l'ESIC",
+        "Quelles spécialités existe-t-il ?",
+        "Formations disponibles",
+        "Quels programmes sont offerts ?",
+        "Vous avez un master ?",
+        "Est-ce que vous proposez une licence ?",
+        "Parcours académiques",
+        "Quelles options d'études sont disponibles ?"
+      ],
+      "responses": [
+        "L'ESIC propose plusieurs filières : Informatique, Gestion, Finance, Commerce, et Ingénierie. Chaque filière est disponible en licence et en master. Contactez la scolarité pour un programme détaillé.",
+        "Nos formations couvrent l'Informatique, la Gestion d'entreprise, la Finance et le Commerce international. Nous offrons des cursus de 3 ans (Licence) et 5 ans (Master)."
+      ]
+    },
+    {
+      "tag": "frais_scolarite",
+      "patterns": [
+        "Quels sont les frais de scolarité ?",
+        "Combien coûte la formation ?",
+        "Quel est le montant des frais ?",
+        "Tarifs de l'école",
+        "Prix des études",
+        "C'est combien pour étudier à l'ESIC ?",
+        "Les frais sont-ils élevés ?",
+        "Y a-t-il des bourses disponibles ?",
+        "Existe-t-il des facilités de paiement ?",
+        "Frais d'inscription"
+      ],
+      "responses": [
+        "Les frais de scolarité varient selon la filière et le niveau. Contactez notre service financier ou rendez-vous à l'administration pour obtenir le détail des tarifs en vigueur.",
+        "Pour connaître le montant exact des frais et les possibilités de bourse ou de facilité de paiement, veuillez contacter directement notre service des affaires financières."
+      ]
+    },
+    {
+      "tag": "calendrier_academique",
+      "patterns": [
+        "Quand commencent les cours ?",
+        "Quelle est la date de rentrée ?",
+        "Calendrier académique",
+        "Quand se terminent les cours ?",
+        "Dates des examens",
+        "Quand sont les vacances ?",
+        "Planning de l'année scolaire",
+        "La rentrée c'est quand ?",
+        "Début du semestre",
+        "Calendrier universitaire"
+      ],
+      "responses": [
+        "La rentrée académique a généralement lieu en octobre. Pour le calendrier complet avec les dates d'examens et les vacances, consultez le site de l'ESIC ou contactez la scolarité.",
+        "Le calendrier académique est disponible auprès du service de scolarité. Les cours débutent généralement en octobre et se terminent en juin."
+      ]
+    },
+    {
+      "tag": "examens",
+      "patterns": [
+        "Quand ont lieu les examens ?",
+        "Comment se passent les examens ?",
+        "Modalités d'évaluation",
+        "Dates des examens",
+        "Rattrapage des examens",
+        "Session de rattrapage",
+        "Comment sont notés les étudiants ?",
+        "Je veux savoir mes résultats",
+        "Où consulter mes notes ?",
+        "Résultats d'examen"
+      ],
+      "responses": [
+        "Les examens se déroulent en fin de semestre. Les résultats sont publiés sur le portail étudiant. Pour toute question sur les rattrapages, contactez la scolarité.",
+        "Les modalités d'évaluation comprennent des contrôles continus et des examens finaux. Consultez le portail étudiant pour vos résultats ou rapprochez-vous de la scolarité."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "Comment vous contacter ?",
+        "Numéro de téléphone",
+        "Adresse email",
+        "Où se trouve l'ESIC ?",
+        "Adresse de l'école",
+        "Je veux parler à quelqu'un",
+        "Contact de l'administration",
+        "Comment joindre la scolarité ?",
+        "Avez-vous un site web ?",
+        "Coordonnées de l'ESIC"
+      ],
+      "responses": [
+        "Vous pouvez nous contacter par email à contact@esic.edu ou par téléphone durant nos heures d'ouverture (lundi-vendredi, 8h30-17h00). Vous pouvez également vous rendre directement à notre campus.",
+        "Pour nous joindre : email contact@esic.edu, ou présentez-vous à l'accueil du lundi au vendredi de 8h30 à 17h00."
+      ]
+    },
+    {
+      "tag": "stage",
+      "patterns": [
+        "Comment trouver un stage ?",
+        "L'école aide-t-elle à trouver des stages ?",
+        "Conventions de stage",
+        "Durée du stage obligatoire",
+        "Stage de fin d'études",
+        "Entreprises partenaires",
+        "Comment valider mon stage ?",
+        "Rapport de stage",
+        "Période de stage"
+      ],
+      "responses": [
+        "L'ESIC dispose d'un service de relations entreprises qui aide les étudiants à trouver des stages. Contactez ce service pour les offres disponibles et les conventions de stage.",
+        "Les stages sont obligatoires selon le cursus. Le service des relations entreprises publie des offres régulièrement. Rendez-vous au bureau des stages pour signer votre convention."
+      ]
+    },
+    {
+      "tag": "vie_campus",
+      "patterns": [
+        "Y a-t-il une cantine ?",
+        "Hébergement sur le campus",
+        "Activités étudiantes",
+        "Clubs et associations",
+        "Y a-t-il une bibliothèque ?",
+        "Accès à internet sur le campus",
+        "Sport à l'école",
+        "Vie associative",
+        "Restauration sur le campus",
+        "Résidence étudiante"
+      ],
+      "responses": [
+        "L'ESIC dispose d'une cafétéria, d'une bibliothèque, de salles informatiques et de nombreuses associations étudiantes. Renseignez-vous à l'accueil pour les activités disponibles.",
+        "Le campus offre diverses infrastructures : bibliothèque, cafétéria, salles de sport et un foyer étudiant. Des associations culturelles et sportives animent la vie du campus."
+      ]
+    },
+    {
+      "tag": "incompris",
+      "patterns": [
+        "Je ne sais pas",
+        "Autre chose",
+        "Autre question",
+        "Rien de tout ça",
+        "Autre"
+      ],
+      "responses": [
+        "Je suis désolé, je n'ai pas bien compris votre demande. Pouvez-vous reformuler ? Vous pouvez aussi contacter directement la scolarité pour toute question spécifique.",
+        "Je n'ai pas de réponse précise à cela. N'hésitez pas à contacter notre équipe administrative pour plus d'informations."
+      ]
+    }
+  ]
+}
