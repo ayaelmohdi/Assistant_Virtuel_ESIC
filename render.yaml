@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: assistant-virtuel-esic
+    runtime: python
+    buildCommand: pip install -r requirements.txt && python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+    startCommand: uvicorn api_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

@@ -48,4 +48,6 @@ def predict_intent(query: Query):
 
 
 if __name__ == "__main__":
-    print("Lancez le serveur avec : uvicorn api_server:app --reload")
+    import os, uvicorn
+    port = int(os.environ.get("PORT", 8000))
+    uvicorn.run("api_server:app", host="0.0.0.0", port=port)
