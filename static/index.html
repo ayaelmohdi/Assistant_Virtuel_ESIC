@@ -69,6 +69,21 @@
       margin-right: 5px;
     }
 
+    .clear-btn {
+      margin-left: auto;
+      background: rgba(255,255,255,0.15);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: #fff;
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 12px;
+      cursor: pointer;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .clear-btn:hover { background: rgba(255,255,255,0.28); }
+
     /* Messages */
     .chat-messages {
       flex: 1;
@@ -221,6 +236,7 @@
       <h2>Assistant Virtuel ESIC</h2>
       <span><span class="status-dot"></span>En ligne</span>
     </div>
+    <button class="clear-btn" id="clearBtn" title="Effacer la conversation">&#128465; Effacer</button>
   </div>
 
   <div class="chat-messages" id="messages">
@@ -243,6 +259,14 @@
   const messagesEl = document.getElementById('messages');
   const inputEl    = document.getElementById('userInput');
   const sendBtn    = document.getElementById('sendBtn');
+  const clearBtn   = document.getElementById('clearBtn');
+
+  const WELCOME = '<div class="message bot"><div class="bot-avatar">🤖</div><div><div class="bubble">Bonjour ! Je suis l\'assistant virtuel de l\'ESIC. Comment puis-je vous aider ?</div><div class="timestamp">maintenant</div></div></div>';
+
+  clearBtn.addEventListener('click', () => {
+    messagesEl.innerHTML = WELCOME;
+    inputEl.focus();
+  });
 
   function getTime() {
     return new Date().toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
